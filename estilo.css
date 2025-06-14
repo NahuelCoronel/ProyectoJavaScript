@@ -1,0 +1,98 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+#login-container {
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+/* Estilos comunes para ambos formularios (LogIn y Registrar) */
+#formLogIn, #formRegistrar { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+/* Estilos comunes para los divs que contienen label e input en ambos formularios */
+#formLogIn div, #formRegistrar div { 
+    width: 100%;
+    text-align: left;
+}
+
+/* Estilos comunes para las etiquetas (labels) en ambos formularios */
+#formLogIn label, #formRegistrar label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos comunes para todos los inputs de texto/password/email/tel/date en ambos formularios */
+#formLogIn input[type="text"],
+#formLogIn input[type="password"],
+#formRegistrar input[type="text"], 
+#formRegistrar input[type="password"],  
+#formRegistrar input[type="date"]    
+{
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* Estilos para los botones dentro del contenedor (aplican a ambos formularios) */
+#login-container button, #formRegistrar button, #usuarioCread button {
+    padding: 12px 25px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#login-container button:hover {
+    background-color: #0056b3;
+}
+
+h1, h2 { /* Estilos para los títulos principales */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p { /* Estilos para los párrafos generales */
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Estilos específicos para mensajes de error/éxito */
+p#message, p#messageUser, p#messageRegister { 
+    margin-top: 1px;
+    font-weight: bold;
+    color: #dc3545; 
+    min-height: 1px; 
+}
+
+
