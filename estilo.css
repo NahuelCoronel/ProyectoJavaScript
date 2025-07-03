@@ -18,6 +18,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     background-color: #fff;
+    margin-top: 150px;
 }
 
 /* Estilos comunes para ambos formularios (LogIn y Registrar) */
@@ -77,9 +78,15 @@ body {
     background-color: #0056b3;
 }
 
-h1, h2 { /* Estilos para los títulos principales */
+h2 { /* Estilos para los títulos principales */
     color: #333;
     margin-bottom: 20px;
+}
+
+h1{ /* Estilos para los títulos principales */
+    color: #333;
+    margin-bottom: 20px;
+   
 }
 
 p { /* Estilos para los párrafos generales */
@@ -93,6 +100,17 @@ p#message, p#messageUser, p#messageRegister {
     font-weight: bold;
     color: #dc3545; 
     min-height: 1px; 
+}
+
+#encabezado-fijo {
+    position: fixed; /* Lo pega a la ventana, no se mueve con el scroll */
+    top: 0;          /* Lo pega arriba */
+    left: 0;         /* Lo pega a la izquierda */
+    width: 100%;     /* Ocupa todo el ancho */
+    text-align: center; /* Centra el texto (h1 y p) dentro de él */
+    background-color: white; /* Para que el texto sea legible sobre el contenido */
+    padding: 15px 0; /* Espacio arriba y abajo */
+    z-index: 1000;   /* Asegura que siempre esté por encima de todo */
 }
 
 

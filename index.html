@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristina's Empanadas - Login</title>
-    <script defer src="codigo.js"></script> </head>
+    <script defer src="logIn.js"></script><script defer src="registrarse.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
     <link rel="stylesheet" href="estilo.css">
 <body>
-    <h1>Cristina's Empanadas</h1>
-    <p>Páginas de venta de empanadas y otras futuras variedades de comida</p>
+    <div id="encabezado-fijo">
+        <h1>Cristina's Empanadas</h1>
+        <p>Páginas de venta de empanadas y otras futuras variedades de comida</p>
+    </div>
 
     <div id="login-container">
-        <h2>Inicio de sesión</h2>
+        <h2 id="tituloLogIn">Inicio de sesión</h2>
     
         <form id="formLogIn">
             <div>
@@ -26,7 +30,6 @@
     
             <button type="submit" id="logIn">Entrar</button>
     
-            <p id="message"></p>
         </form>
         <button type="button" id="register">Registrarse</button>
     </div>

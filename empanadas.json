@@ -1,0 +1,38 @@
+[   
+    {
+        "sabor":"Carne",
+        "precio":1500,
+        "ingredientes":["Carne", "Cebolla", "Morron", "Aceituna"],
+        "id":1
+    },
+
+    {
+        "sabor":"Pollo",
+        "precio":1500,
+        "ingredientes":["Pollo", "Cebolla", "Morron"],
+        "id":2
+    },
+
+    {
+        "sabor":"Jamón y Queso",
+        "precio":1500,
+        "ingredientes":["Jamón", "Queso Mozzarella", "Orégano"],
+        "id":3
+    },
+
+    {
+        "sabor":"Verdura",
+        "precio":1500,
+        "ingredientes":["Acelga", "Salsa Blanca", "Nuez Moscada"],
+        "id":4
+    },
+
+    {
+        "sabor":"Humita",
+        "precio":1500,
+        "ingredientes":["Choclo Cremoso", "Cebolla", "Pimentón"],
+        "id":5
+    }
+
+]
+
