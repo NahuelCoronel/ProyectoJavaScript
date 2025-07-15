@@ -3,35 +3,40 @@
         "sabor":"Carne",
         "precio":1500,
         "ingredientes":["Carne", "Cebolla", "Morron", "Aceituna"],
-        "id":1
+        "id":1,
+        "imagen": "imagenesEmpanadas/carne.jpg"
     },
 
     {
         "sabor":"Pollo",
         "precio":1500,
         "ingredientes":["Pollo", "Cebolla", "Morron"],
-        "id":2
+        "id":2,
+        "imagen": "imagenesEmpanadas/pollo.jpg"
     },
 
     {
         "sabor":"Jamón y Queso",
         "precio":1500,
         "ingredientes":["Jamón", "Queso Mozzarella", "Orégano"],
-        "id":3
+        "id":3,
+        "imagen": "imagenesEmpanadas/jyq.jpg"
     },
 
     {
         "sabor":"Verdura",
         "precio":1500,
         "ingredientes":["Acelga", "Salsa Blanca", "Nuez Moscada"],
-        "id":4
+        "id":4,
+        "imagen": "imagenesEmpanadas/verdura.jpg"
     },
 
     {
         "sabor":"Humita",
         "precio":1500,
         "ingredientes":["Choclo Cremoso", "Cebolla", "Pimentón"],
-        "id":5
+        "id":5,
+        "imagen": "imagenesEmpanadas/humita.jpg"
     }
 
 ]

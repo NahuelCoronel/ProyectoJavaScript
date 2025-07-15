@@ -41,8 +41,9 @@ async function registrarUsuario(event, Usuarios) {
 
 const htmlBodyRegistrar = `
 <div id="encabezado-fijo">
-    <h1>Cristina's Empanadas</h1>
-    <p>Páginas de venta de empanadas y otras futuras variedades de comida</p>
+        <div class="header-content"> <h1>Cristina's Empanadas</h1>
+            <p>Páginas de venta de empanadas y otras futuras variedades de comida</p>
+        </div>
 </div>
 <div id="login-container">
     <h2>Registro de usuario</h2>
